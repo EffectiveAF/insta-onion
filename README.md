@@ -20,6 +20,18 @@ to create a new onion service in `/var/lib/tor/leapchat` whose Tor
 traffic is proxied through to `127.0.0.1:8082` .  That's it! :tada:
 
 
+## Compatibility
+
+Works on Debian and Ubuntu.  Tested as root and non-root users on:
+
+- Debian 10.3 x86_64
+- Debian 9.12 x86_64
+- Ubuntu 19.10 x86_64
+- Ubuntu 18.04.3 LTS x86_64
+- Ubuntu 16.04.6 LTS x86_64
+- Ubuntu 16.04.6 LTS x86 (32-bit)
+
+
 ## License
 
 [The Hippocratic License 2.1](https://firstdonoharm.dev/), which says,
